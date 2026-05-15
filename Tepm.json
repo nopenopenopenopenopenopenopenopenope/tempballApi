@@ -1,0 +1,54 @@
+{
+  "skins": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "price": 0,
+      "rarity": "common",
+      "image": "classic.png"
+    },
+    {
+      "id": "neon_blue",
+      "name": "Neon Blue",
+      "price": 100,
+      "rarity": "rare",
+      "image": "neonblue.png"
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "price": 250,
+      "rarity": "epic",
+      "image": "inferno.png"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "initial_speed",
+      "name": "Initial Speed",
+      "description": "Slows the ball's starting speed",
+      "basePrice": 100,
+      "maxLevel": 4,
+      "increment": 0.5,
+      "type": "linear"
+    },
+    {
+      "id": "acceleration",
+      "name": "Acceleration",
+      "description": "Slows ball acceleration",
+      "basePrice": 150,
+      "maxLevel": 5,
+      "increment": 0.02,
+      "type": "linear"
+    },
+    {
+      "id": "paddle_width",
+      "name": "Paddle Width",
+      "description": "Increases paddle width",
+      "basePrice": 120,
+      "maxLevel": 5,
+      "increment": 5,
+      "type": "linear"
+    }
+  ]
+}
